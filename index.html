@@ -110,6 +110,7 @@
         .tearing { animation: tear 0.1s infinite; opacity: 1 !important; background: var(--glitch-cyan) !important; }
         @keyframes tear { 0% { clip-path: inset(10% 0 60% 0); } 50% { clip-path: inset(40% 0 10% 0); } 100% { clip-path: inset(0 0 0 0); } }
     </style>
+    <script src="/Dossier/profile.js"></script>
 </head>
 <body>
 
@@ -128,107 +129,53 @@
     </div>
 
     <div class="container">
-        <section class="comic-panel">
-            <h1 class="glitch-trigger">BHARAT SINGH RAWAT, Ph.D.</h1>
-            <h3 class="role-tag">// ION SOURCE & BEAM DIAGNOSTICS EXPERT</h3>
-            <p style="font-size: 1.4rem; font-weight: bold; border-top: 5px solid #000; padding-top: 15px; margin-top: 15px;">
-                Expert in manipulating charged particle beams with 7+ years of experience in the design of ion sources, beam extraction/transport systems, and digital twins.
-            </p>
-            <div style="margin-top: 25px;">
-                <a href="https://bharat26031992.github.io/AEgIS_Outreach_Game/" target="_blank" style="background:var(--spider-red); color:#fff; padding:15px; text-decoration:none; font-family:'Bangers'; border:4px solid #000; box-shadow: 5px 5px 0 #000;">PROJECT_DT</a>
-                <a href="https://bharat26031992.github.io/Project-Hbar/" target="_blank" style="background:var(--spider-blue); color:#fff; padding:15px; text-decoration:none; font-family:'Bangers'; border:4px solid #000; box-shadow: 5px 5px 0 #000; margin-left:15px;">PROJECT_HBAR</a>
-            </div>
-        </section>
+        <!-- CONTENT COMES FROM /Dossier/profile.js (edit that file, not this page) -->
+        <section class="comic-panel" id="cv-hero"></section>
 
         <h2 class="module-title glitch-trigger">[ 01: EMPLOYMENT HISTORY ]</h2>
-        <section class="comic-panel">
-            <span class="role-tag">Research Associate | University of Liverpool / Cockcroft / CERN</span>
-            <span class="date-badge">2023 — 2026</span>
-            <ul>
-                <li class="mission-li">Led ballistic antiproton transport optimization utilizing 3D CST Penning Trap models.</li>
-                <li class="mission-li">Creating a Digital Twin of the Penning Malmberg trap apparatus, integrating first principles physics with Machine Learning (ML) models to predict trap behavior and optimize confinement.</li>
-                <li class="mission-li">Executing critical on-shift responsibilities during beam time, including real-time data acquisition and management of cryogenic systems for superconducting magnets.</li>
-            </ul>
-
-            <span class="role-tag">Radiation Protection Engineer | Nuvia India Pvt Limited</span>
-            <span class="date-badge">2018 — 2018</span>
-            <ul>
-                <li class="mission-li">Managed occupational radiation exposure at Kakrapar Atomic Power Station.</li>
-                <li class="mission-li">Developed automated dose tracking systems for proactive safety interventions.</li>
-                <li class="mission-li">Coordinated with Health Physics and Reactor Management teams for real-time notification of dose status.</li>
-            </ul>
-        </section>
+        <section class="comic-panel" id="cv-exp"></section>
 
         <h2 class="module-title glitch-trigger">[ 02: RESEARCH & EDUCATION ]</h2>
-        <section class="comic-panel">
-            <div class="origin-card" style="padding:20px; border: 2px solid #ddd; margin-bottom: 20px;">
-                <span class="role-tag">Ph.D. | Homi Bhabha National Institute / IPR</span>
-                <span class="date-badge">2018 — 2024</span>
-                <ul>
-                    <li>Designed a ring cusp ion source for \(Ar^+\) beams (1-2 keV, 100 mA).</li>
-                    <li>Utilized CST Studio for magnetic cusp optimization and OPERA-3D for ion optics design.</li>
-                    <li>Conducted transient thermo-structural analysis in ANSYS to design a grid mounting system.</li>
-                    <li>Engineered a nine-channel Parallel Wire Array (PWA) and a Faraday Cup array (FCA).</li>
-                </ul>
-            </div>
-            
-            <div class="origin-card" style="padding:20px; border: 2px solid #ddd; margin-bottom: 20px;">
-                <span class="role-tag">M.Tech. Nuclear Engineering | Pandit Deendayal Petroleum University</span>
-                <span class="date-badge">2015 — 2017</span>
-                <ul>
-                    <li>Developed a 10 kW Faraday cup capable of measuring 20-30 mA beam intensities.</li>
-                    <li>Designed cooling systems maintaining copper Faraday Cup at 350.6°C.</li>
-                    <li>Calculated suppression voltages (-450V to -500V) via SIMION 8.0 and LORENTZ.</li>
-                </ul>
-            </div>
-
-            <div class="origin-card" style="padding:20px; border: 2px solid #ddd;">
-                <span class="role-tag">B.E. Mechanical Engineering | Gujarat Technological University</span>
-                <span class="date-badge">2009 — 2013</span>
-                <ul>
-                    <li>Provided provisions for thermal judder and overheating in Long Chain Beamer machine.</li>
-                    <li>Mitigated alignment errors in high-speed ice cream packaging machines.</li>
-                </ul>
-            </div>
-        </section>
+        <section class="comic-panel" id="cv-edu"></section>
 
         <h2 class="module-title glitch-trigger">[ 03: PUBLICATIONS ]</h2>
-        <section class="comic-panel">
-            <div class="pub-box"><b>Instruments (2026):</b> Characterization of supersonic gas curtain monitor for flash proton therapy.</div>
-            <div class="pub-box"><b>IBIC (2025):</b> Design of Retarding Potential Energy Analyser (RPEA) for low energy antimatter.</div>
-            <div class="pub-box"><b>Instruments (2025):</b> Faraday cups: principles, designs, and applications—a review.</div>
-            <div class="pub-box"><b>EXA-LEAP (2025):</b> 3D simulation studies of mixed plasma confinement at AEgIS.</div>
-            <div class="pub-box"><b>Phys. Rev. Lett. (2024):</b> Positronium Laser Cooling via \(1^3S-2^3P\) Transition.</div>
-            <div class="pub-box"><b>HBNI Ph.D. Dissertation (2024):</b> Extraction of an Ion beam and its Transport from a Multi-Cusp Gridded Ion Source.</div>
-            <div class="pub-box"><b>IPAC (2024):</b> Simulation studies for the confinement of antiprotons for AEgIS experiment.</div>
-            <div class="pub-box"><b>IEEE TPS (2023):</b> Space Charge Neutralization in Ring Cusp Ion Sources.</div>
-            <div class="pub-box"><b>AIP Advances (2022):</b> Ion beam profiles using fixed parallel wires and Faraday cup array.</div>
-            <div class="pub-box"><b>IEEE TPS (2021):</b> Multicusp Ion Source with Two-Grid Extraction System.</div>
-            <div class="pub-box"><b>ICONE25 (2017):</b> Design and simulation of 10kW Faraday cup for ion beam current.</div>
-        </section>
+        <section class="comic-panel" id="cv-pubs"></section>
 
         <h2 class="module-title glitch-trigger">[ 04: PRESENTATION & TALKS ]</h2>
-        <section class="comic-panel">
-            <div class="pub-box"><b>Invited talk:</b> FC design for antimatter research using CST - Nottingham, UK (2025).</div>
-            <div class="pub-box"><b>Contributed talk:</b> Digital Twin-Enabled Antimatter Beam Control - Lisbon, Portugal (2025).</div>
-            <div class="pub-box"><b>Contributed talk:</b> Modeling Penning-Malmberg Traps for AEgIS - Manchester, UK (2025).</div>
-            <div class="pub-box"><b>Contributed talk:</b> Design and Simulation of 10 kW Faraday Cup - Shanghai, China (2017).</div>
-        </section>
+        <section class="comic-panel" id="cv-talks"></section>
 
         <h2 class="module-title glitch-trigger">[ 05: HOBBIES ]</h2>
-        <section class="comic-panel" style="display:flex; flex-wrap:wrap; gap:12px;">
-            <span class="date-badge arsenal-item">♟ CHESS: 1900 on chess.com / 1725 ELO</span>
-            <span class="date-badge arsenal-item">🌍 LANGUAGES: 5 (English, Hindi, Gujarati, Spanish B2, Russian A1)</span>
-            <span class="date-badge arsenal-item">🎵 INSTRUMENTS: Keytar, Harmonium, Melodica, Guitar</span>
-            <span class="date-badge arsenal-item">✈️ TRAVEL: 12+ Countries</span>
-        </section>
+        <section class="comic-panel" id="cv-hobbies" style="display:flex; flex-wrap:wrap; gap:12px;"></section>
 
         <h2 class="module-title glitch-trigger">[ 06: ARSENAL ]</h2>
-        <section class="comic-panel">
-            <p><b>SOFTWARE STACK:</b> 
-                <span class="arsenal-item">CST Studio</span>, <span class="arsenal-item">OPERA3D</span>, <span class="arsenal-item">SIMION</span>, <span class="arsenal-item">COMSOL</span>, <span class="arsenal-item">RF Track</span>, <span class="arsenal-item">ANSYS</span>, <span class="arsenal-item">ASTRA</span>, <span class="arsenal-item">MAD-X</span>, <span class="arsenal-item">Geant4</span>, <span class="arsenal-item">IBISIMU</span>.
-            </p>
-        </section>
+        <section class="comic-panel" id="cv-skills"></section>
+
+        <script>
+        (function () {
+            const P = window.PROFILE, $ = id => document.getElementById(id);
+            const colors = ['var(--spider-red)', 'var(--spider-blue)'];
+            $('cv-hero').innerHTML = `
+                <h1 class="glitch-trigger">${P.name}</h1>
+                <h3 class="role-tag">// ${P.title}</h3>
+                <p style="font-size: 1.4rem; font-weight: bold; border-top: 5px solid #000; padding-top: 15px; margin-top: 15px;">${P.summary}</p>
+                <div style="margin-top: 25px;">${cvMap(P.links, (l, i) => `<a href="${l.url}" target="_blank" style="background:${colors[i % 2]}; color:#fff; padding:15px; text-decoration:none; font-family:'Bangers'; border:4px solid #000; box-shadow: 5px 5px 0 #000;${i ? ' margin-left:15px;' : ''}">${l.label}</a>`)}</div>`;
+            $('cv-exp').innerHTML = cvMap(P.experience, e => `
+                <span class="role-tag">${e.role} | ${e.org}</span>
+                <span class="date-badge">${e.dates}</span>
+                <ul>${cvMap(e.bullets, b => `<li class="mission-li">${b}</li>`)}</ul>`);
+            $('cv-edu').innerHTML = cvMap(P.education, (e, i, a) => `
+                <div class="origin-card" style="padding:20px; border: 2px solid #ddd;${i < a.length - 1 ? ' margin-bottom: 20px;' : ''}">
+                    <span class="role-tag">${e.role} | ${e.org}</span>
+                    <span class="date-badge">${e.dates}</span>
+                    <ul>${cvMap(e.bullets, b => `<li>${b}</li>`)}</ul>
+                </div>`);
+            $('cv-pubs').innerHTML = cvMap(P.publications, p => `<div class="pub-box"><b>${p.venue}:</b> ${p.title}</div>`);
+            $('cv-talks').innerHTML = cvMap(P.talks, t => `<div class="pub-box"><b>${t.type}:</b> ${t.text}</div>`);
+            $('cv-hobbies').innerHTML = cvMap(P.hobbies, h => `<span class="date-badge arsenal-item">${h.icon} ${h.name}: ${h.detail}</span>`);
+            $('cv-skills').innerHTML = cvMap(P.skills, s => `<p><b class="arsenal-item" style="text-transform:uppercase;">${s.label}:</b> ${s.text}</p>`)
+                + `<p><b>CORE EXPERTISE:</b> ${P.expertise}</p>`;
+        })();
+        </script>
     </div>
 
     <audio id="ambient-melody" loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3"></audio>
